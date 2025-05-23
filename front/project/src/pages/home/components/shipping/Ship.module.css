@@ -1,0 +1,30 @@
+.ship{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+
+    .shipcontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        i{
+            font-size: 2.5rem;
+            padding: 1.5rem;
+            background-color: rgb(255, 159, 175);
+            border-radius: 50%;
+            color: white;
+        }
+        h1{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+}
